@@ -1,0 +1,45 @@
+/* @import url(style.css); */
+
+@media screen and (max-width: 1024px) {
+
+    .navbar{
+        position: relative;
+        justify-content: center;
+    }
+    .menu {
+        flex: 0%;
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .headline p{
+        text-align: center;
+
+    }
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .servicos{
+        display: block;
+    }
+    .card{
+        display: block;
+        width: 100%;
+    }
+    .whats img{
+        width: 70px;
+    }
+
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(/css/header.css);
+@import url(/css/section.css);
+@import url(/css/footer.css);
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.navbar {
+    height: 100px;
+    background-color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10%;
+    flex: 20%;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+.logo h1 {
+    font-family: "Lobster", sans-serif;
+    color: #8681ff;
+    font-size: 34px;
+}
+
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid red; */
+    text-align: right;
+    padding: 20px;
+
+}
+
+.menu a {
+    color: #8681ff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+
+
+}
+
+.menu a:hover {
+    color: #87d3f5;
+    border-top: 4px solid #8681ff;
+}
+
+#faleConosco {
+    background-color: #8681ff;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+
+    margin-right: 10%;
+    margin-left: 5%;
+
+    transition: all 0.5s;
+}
+
+#faleConosco:hover {
+    border: none;
+    background-color: #87d3f5;
+}
